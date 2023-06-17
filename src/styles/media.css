@@ -1,4 +1,4 @@
-@media(min-width: 100px){
+@media(max-width: 900px){
     #box {
         display: flex;
         flex-direction: column;
@@ -218,8 +218,9 @@
         padding: 24px;
         gap: 25px;
         position: absolute;
-        width: 343px;
-        left: calc(50% - 343px/2);
+        width: 400px;
+        height: 520px;
+        left: calc(50% - 375px/2);
         top: 8.4%;
         bottom: 26.84%;
         background: #FFFFFF;
